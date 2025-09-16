@@ -14,10 +14,10 @@ const asyncHandler = require("./utils/asyncHandler");
 
 const app = express();
 
-app.use(helmet()); // security headers
-app.use(cors()); // enable CORS
-app.use(express.json()); // parse JSON
-app.use(morgan("dev")); // logger
+app.use(helmet());
+app.use(cors()); 
+app.use(express.json()); 
+app.use(morgan("dev")); 
 
 
 app.get("/health", (req, res) => {
