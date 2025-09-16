@@ -10,7 +10,6 @@ const connectDB = require("./config/db");
 
 const logger = require('./utils/logger');
 
-
 connectDB();
 
 app.listen(config.server.port, () => {
