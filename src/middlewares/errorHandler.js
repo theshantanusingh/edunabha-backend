@@ -4,7 +4,6 @@
  */
 
 const logger = require("../utils/logger");
-const ApiError = require("../utils/ApiError");
 
 /**
  * Express error-handling middleware.
