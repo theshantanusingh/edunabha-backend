@@ -1,12 +1,11 @@
-Edunabha
-# 📚 Digital Learning Backend
+# Digital Learning Backend *Edunabha*
 
 Backend service for the **Digital Learning Platform for Rural School Students in Nabha (SIH Project)**.  
 Built with **Node.js, Express, and MongoDB**, optimized for scalability, offline-first support, and educational use cases.
 
 ---
 
-## 🚀 Features
+## Features
 - RESTful API built with **Express.js**
 - MongoDB database integration via **Mongoose**
 - **Secure environment configuration** with dotenv
