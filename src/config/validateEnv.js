@@ -6,6 +6,8 @@
 const dotenv = require("dotenv");
 dotenv.config();
 
+const logger = require('./../utils/logger');
+
 /**
  * List of required environment variables.
  * @type {string[]}
@@ -23,11 +25,11 @@ const requiredEnv = [
 // Validate environment variables
 requiredEnv.forEach((key) => {
   if (!process.env[key]) {
-    console.error(`❌ Missing required environment variable: ${key}`);
+    logger.error(` Missing required environment variable: ${key}`);
     process.exit(1);
   }
 });
 
-console.log("✅ All environment variables loaded successfully");
+logger.info(" All environment variables loaded successfully");
 
 module.exports = process.env;
