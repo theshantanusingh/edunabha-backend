@@ -73,4 +73,3 @@
 | Punjabi Language    | High     | Completed   |
 
 > Addressing this problem is urgent to ensure equitable access to quality education and to empower rural youth with skills for the modern world.
-
